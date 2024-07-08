@@ -6,6 +6,7 @@ cypress/                  # Cypress root directory
   ├── e2e/                # Test files (specify your test files structure if different)         
   ├── support/            # Support files (commands, utilities, etc.)
   └── ...
+  
 tsconfig.json 
 .prettierrc
 cypress.config.ts
