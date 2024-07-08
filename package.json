@@ -1,0 +1,24 @@
+{
+  "name": "easygenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "node server.js",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test start http://localhost:3000 cy:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^3.3.2",
+    "start-server-and-test": "^2.0.4"
+  },
+  "dependencies": {
+    "prettier-eslint": "^16.3.0"
+  }
+}
